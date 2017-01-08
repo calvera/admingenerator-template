@@ -1,0 +1,15 @@
+parameters:
+#    parameter_name: value
+
+services:
+    chc.testing.admin.menu_builder:
+        class: AppBundle\Menu\AdminMenuBuilder
+        arguments: ['@knp_menu.factory']
+
+    chc.testing.admin.menu.main:
+        class: Knp\Menu\MenuItem
+        scope: request
+        factory: 'chc.testing.admin.menu_builder:navbarMenu'
+        arguments: ['@chc.testing.admin.menu_builder']
+        tags:
+            - { name: knp_menu.menu, alias: main }

@@ -1,0 +1,11 @@
+AppBundle_admin_app_bundle_User:
+    resource: "@AppBundle/Controller/User/"
+    type:     admingenerator
+    prefix:   /admin/user
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"

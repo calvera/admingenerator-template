@@ -1,0 +1,49 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"file_exclude_patterns":
+			[
+			    "._*",
+			    "*.*~",
+			    "*.bak",
+			    "*.ico",
+			    "*.sample",
+			    "*.swf",
+			    "*.tar",
+			    "*.tgz",
+			    "wp-*.php",
+			    "*.zip"
+			],
+			"folder_exclude_patterns":
+			[
+				"var",
+				"node_modules",
+				".idea/",
+				"web/css",
+				"web/js",
+				"web/bundles",
+				"data",
+				"logs",
+				".idea"
+			]
+		},
+		{
+			"path": "app/cache/dev/Admingenerated",
+			"file_exclude_patterns":
+			[
+			    "._*",
+			    "*.*~",
+			    "*.bak",
+			    "*.ico",
+			    "*.sample",
+			    "*.swf",
+			    "*.tar",
+			    "*.tgz",
+			    "wp-*.php",
+			    "*.zip"
+			]
+		}
+	]
+}
