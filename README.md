@@ -1,0 +1,1 @@
+# admingenerator-template
