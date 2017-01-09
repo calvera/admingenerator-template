@@ -4,7 +4,6 @@
 /build/
 /vendor/
 /var/
-/bin/
 /composer.phar
 /phpunit.phar
 /*.conf
