@@ -3,7 +3,8 @@
 /app/config/parameters.yml
 /build/
 /vendor/
-/var/
+/var/*
+!/var/.gitkeep
 /composer.phar
 /phpunit.phar
 /*.conf
